@@ -1,5 +1,8 @@
 # Ordering System
 
+## Code Source
+The code location is: [Code](https://github.com/jaidevkler/python-challenge-1/blob/main/menu.py)
+
 ## How to run the program
 Enter the following command to run the program:
 ```bash
