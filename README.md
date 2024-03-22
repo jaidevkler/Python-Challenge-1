@@ -10,7 +10,7 @@ $ python menu.py
 ```
 
 ## Program
-The program provides the user with menu choices. The program provides the user with a total cost and receipt, based on the user's choices. Below find a step-wise guide to the running of the program:
+The program provides the user with menu items to choose from. The program based on the choices provides the user with a receipt and cost for the order. Below find a step-wise guide to the running of the program:
 
 ### Category Choice
 A menu is displayed for the user to choose from:
@@ -20,7 +20,7 @@ A menu is displayed for the user to choose from:
 4. Dessert
 
 Based on the user input the following outputs are displayed:
-* A message stating that 'You have selected \<chosen category>' is displayed. Based on the input a sub-menu is displayed with prices.
+* A message stating that 'You have selected \<chosen category name>' is displayed. In addition to that a sub-menu is displayed with prices.
 * An error '\<Entered number> was not a menu option' is displayed, in case if user inputs a number other than the choices available.
 * An error 'You didn't select a number' is displayed, in case if the user enters an input other than a number.
 
@@ -33,7 +33,7 @@ Based on the user input the following outputs are displayed:
 * An error 'You didn't select a number' is displayed, in case if the user enters an input other than a number.
 
 ### Quantity
-The user is prompted to enter the quantity for the chosen item, in case if the user enters a valid sub-menu choice. The quantity is set to 1 in case if the user enters an invalid input. The ordered item is added to the order list.
+The user is prompted to enter the quantity for the chosen item, in case if the user enters a valid sub-menu choice. The quantity is set to 1 in case if the user enters an invalid input. An error is displayed in cased if the quantity is not a number. The ordered item is added to the order list.
 
 ### Continue Ordering
 The user is asked if they would like to continue ordering (Y or N). The following outputs are displayed based on the user input:
